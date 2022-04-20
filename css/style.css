@@ -123,7 +123,7 @@ header h1 {
 }
 
 .small-marg-down {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
 }
 
 .contract-type {
@@ -163,4 +163,18 @@ li i {
 .right-part {
     flex-grow: 1;
     padding: 3rem 1.5rem;
+}
+
+.cards {
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: calc((100% - 2rem) / 3);
+    padding-bottom: 2rem;
+}
+
+.card img {
+    max-width: 100%;
 }
