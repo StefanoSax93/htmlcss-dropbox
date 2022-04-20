@@ -149,6 +149,9 @@ li i {
 
 .row {
     gap: 3rem;
+}
+
+.row-padded {
     padding: 1.5rem 1rem;
 }
 
