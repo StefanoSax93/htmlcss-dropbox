@@ -19,7 +19,7 @@
 }
 
 .big-container {
-    width: 55%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@
 .nav a {
     text-decoration: none;
     color: black;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
     font-size: 0.9rem;
 }
 
@@ -56,14 +56,14 @@
 }
 
 h1 {
-    font-size: 3.1rem;
+    font-size: 3.5rem;
     font-weight: 900;
     padding-bottom: 1.5rem;
 }
 
 .text {
     min-width: 33%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .pad-down {
@@ -71,7 +71,7 @@ h1 {
 }
 
 .jumbo {
-    max-width: 610px;
+    max-width: 650px;
 }
 
 .relative {
