@@ -19,12 +19,12 @@
 }
 
 .big-container {
-    width: 80%;
+    width: 55%;
     margin: 0 auto;
 }
 
 .container {
-    width: 65%;
+    width: 45%;
     margin: 0 auto;
 }
 
@@ -33,6 +33,8 @@
     padding: 1rem 1rem;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .nav div {
@@ -43,9 +45,36 @@
     text-decoration: none;
     color: black;
     padding: 0.5rem 1rem;
+    font-size: 0.9rem;
 }
 
 .btn {
     background-color: #0061FF;
     color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3.1rem;
+    font-weight: 900;
+    padding-bottom: 1.5rem;
+}
+
+.text {
+    min-width: 33%;
+    font-size: 0.8rem;
+}
+
+.pad-down {
+    padding-bottom: 2.5rem;
+}
+
+.jumbo {
+    max-width: 610px;
+}
+
+.relative {
+    position: relative;
+    top: 100px;
 }
