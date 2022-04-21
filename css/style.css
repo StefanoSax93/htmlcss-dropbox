@@ -23,7 +23,7 @@ p {
 }
 
 .big-container {
-    width: 64%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -237,3 +237,33 @@ li i {
     max-width: 220px;
     max-height: 220px;
 }
+
+.question {
+    justify-content: space-between;
+    border-bottom: 2px solid lightgrey;
+    padding: 3rem 2rem 3rem 0;
+}
+
+footer .section {
+    background-color: black;
+    padding: 2rem 0 2rem 3rem;
+    color: white;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+footer i {
+    color: lightgrey;
+}
+
+footer select {
+    border: none;
+    background-color: transparent;
+    color: lightgrey;
+    cursor: pointer;
+}
+
