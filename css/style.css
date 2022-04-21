@@ -82,6 +82,11 @@ p {
     color: black;
 }
 
+.displayed {
+    display: inline-block;
+    min-width: 100%;
+}
+
 .not-borded {
     border: none;
 }
@@ -120,7 +125,6 @@ header h1 {
 
 .column {
     flex-basis: calc(100% / 3);
-    min-height: 20px;
 }
 
 .col-head {
@@ -153,6 +157,7 @@ li i {
 
 .line {
     width: 25%;
+    background-color: lightgrey;
 }
 
 .blue {
@@ -169,7 +174,7 @@ li i {
 
 .row-gapped {
     gap: 8rem;
-    padding: 3rem 0;
+    padding: 5rem 0 2rem;
 }
 
 .left-part {
@@ -197,4 +202,38 @@ li i {
 
 .card img {
     max-width: 100%;
+}
+
+.block {
+    min-width: calc(100% / 3);
+    min-height: calc(100vw / 3);
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+}
+
+.mini-block {
+    min-width: calc(100% / 2);
+    min-height: calc(100% / 2);
+    background-color: red;
+    position: relative;
+}
+
+.mini-block img {
+    max-width: 120px;
+    max-height: 120px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.central-block {
+        padding: 2.5rem ;
+        flex-direction: column;
+        gap: 2.3rem;
+}
+
+.central-block img {
+    max-width: 220px;
+    max-height: 220px;
 }
