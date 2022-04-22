@@ -6,3 +6,16 @@
 .btn-blue:hover {
     background-color: #0090fe;
 }
+
+.btn-white:hover {
+    background-color: rgb(245, 245, 245);
+    border-color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.arrow:focus + .hidden {
+    display: block;
+}

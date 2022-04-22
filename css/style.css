@@ -300,13 +300,27 @@ li i {
     padding: 5rem 0;
 }
 .question {
-    justify-content: space-between;
     border-bottom: 2px solid lightgrey;
     padding: 3rem 2rem 3rem 0;
 }
 
+.question h4, .arrow {
+    display: inline-block;
+}
+
+.arrow {
+    margin-left: 9rem;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
 .top-borded {
     border-top: 2px solid lightgrey;
+}
+
+.hidden {
+    padding: 2rem 2rem 0 0;
+    display: none;
 }
 /* footer */
 footer .section {
