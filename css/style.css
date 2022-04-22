@@ -136,13 +136,18 @@ p {
 .nav div {
     align-items: center;
 }
+
 .bb {
     min-height: 80px;
     align-items: center;
 }
+
+.bb a {
+    color: black;
+}
+
 .nav a {
     text-decoration: none;
-    color: black;
     padding: 0.5rem 0.8rem;
     font-size: 0.9rem;
 }
