@@ -1,3 +1,4 @@
+/* Regole base */
 * {
     padding: 0;
     margin: 0;
@@ -17,10 +18,6 @@ p {
     padding: 4rem 0;
 }
 
-.bg {
-    background-color: #B4D0E7;
-}
-
 .container.large {
     max-width: 1000px;
 }
@@ -28,33 +25,6 @@ p {
 .container {
     max-width: 850px;
     margin: 0 auto;
-}
-
-.nav {
-    background-color: white;
-    padding: 0 1rem;
-    min-height: 80px;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
-.nav div {
-    align-items: center;
-}
-
-.bb {
-    min-height: 80px;
-    align-items: center;
-}
-
-.nav a {
-    text-decoration: none;
-    color: black;
-    padding: 0.5rem 0.8rem;
-    font-size: 0.9rem;
 }
 
 .btn {
@@ -69,7 +39,7 @@ p {
 
 .btn-blue {
     color: white;
-    background-color: #0061FF;
+    background-color: var(--lightblue);
 }
 
 .btn-blue a {
@@ -98,7 +68,79 @@ p {
 .btn a {
     text-decoration: none;
 }
-
+.borded {
+    border: 1px solid lightgrey;
+}
+/* Colori */
+:root {
+    --skyblue: #B4D0E7;
+    --green: #A2D39B;
+    --lightgreen: #D1E9CD;
+    --darkred: #61082B;
+    --darkskyblue: #0093CE;
+    --red: #FF1C1C;
+    --red-2: #D5001F; 
+    --blue: #0D2481;
+    --yellow: #FFD830; 
+    --brown: #753857;
+    --lightblue: #0061FF;
+}
+.skyblue {
+    background-color: var(--skyblue);
+}
+.green {
+    background-color: var(--green);
+    border: 15px solid var(--lightgreen);
+}
+.darkred {
+    background-color: var(--darkred);
+}
+.darkskyblue {
+    background-color: var(--darkskyblue);
+}
+.red {
+    background-color: var(--red);
+}
+.red-2 {
+    background-color: var(--red-2);
+}
+.blue {
+    background-color: var(--blue);
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.brown {
+    color: var(--brown);
+}
+.lightblue {
+    color: var(--lightblue);
+}
+/* Parte nav */
+.nav {
+    background-color: white;
+    padding: 0 1rem;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav div {
+    align-items: center;
+}
+.bb {
+    min-height: 80px;
+    align-items: center;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+}
+/* Sezione header */
 header h1 {
     font-size: 3.5rem;
     font-weight: 900;
@@ -122,11 +164,7 @@ header h1 {
     position: relative;
     top: 120px;
 }
-
-.borded {
-    border: 1px solid lightgrey;
-}
-
+/* Sezione colonne scelta piano */
 .column {
     flex-basis: 0;
     flex-grow: 1;
@@ -163,10 +201,6 @@ li i {
 .line {
     width: 25%;
     background-color: lightgrey;
-}
-
-.blue {
-    color: #0061FF;
 }
 
 .row {
