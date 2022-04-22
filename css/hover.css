@@ -1,0 +1,8 @@
+.bb:hover {
+    border-bottom: 3px solid black;
+    margin-bottom: -3px;
+}
+
+.btn-blue:hover {
+    background-color: #0090fe;
+}
