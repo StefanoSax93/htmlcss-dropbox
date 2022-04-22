@@ -39,8 +39,8 @@
                 <a class="btn btn-blue" style="color: white;" href="">Inizia</a>
             </div>
         </div>
-
-        <div class="section skyblue">
+        <!-- sezione header -->
+        <div class="section skyblue marg-down">
             <div class="container large offset-top-120">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="flex">
@@ -53,7 +53,7 @@
                             <a class="btn btn-blue" href="">Inizia la tua prova gratuita</a>
                         </div>
                         <div class="marg-down">Annulla in qualsiasi momento</div>
-                        <div><i class="fa-solid fa-arrow-down" style="font-size: 2rem;"></i></div>
+                        <div><i class="fa-solid fa-3x fa-arrow-down"></i></div>
                     </div>
                     <div>
                         <img class="jumbo" src="img/jumbo.png" alt="">
@@ -65,16 +65,16 @@
 
     <main>
         <div class="section">
-            <div class="container" style="margin-top: 2rem;">
+            <div class="container">
                 <h1 class="marg-down">Trova il piano business che fa per te</h1>
                 <div class="marg-down">
-                    <span style="margin-right: 2rem;">
+                    <span class="radio-margin">
                         <input type="radio" name="scelta fatturazione"> Fatturazione mensile
                     </span>
                     <input type="radio" name="scelta fatturazione"> Fatturazione annuale
                 </div>
-                <!-- inizio sezione colonne -->
-                <div class="flex marg-down" style="gap: 10px;">
+                <!-- sezione colonne scelta piano -->
+                <div class="columns flex marg-down">
                     <!-- prima colonna -->
                     <div class="column borded">
                         <div class="col-head">
@@ -268,18 +268,19 @@
                         </div>
                     </div>
                 </div>
+                <!-- colonna orizzontale -->
                 <div class="borded">
                     <div class="col-head">
                         <i class="fa-solid fa-building"></i>
                         <span>Team</span>
                     </div>
-                    <div class="row row-padded flex">
-                        <div>
+                    <div class="col col-padded flex">
+                        <div class="col-left">
                             <h2 class="small-marg-down">Enterprise</h2>
                             <div class="marg-down"><strong>Contatta l'ufficio vendite per i prezzi</strong></div>
                             <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                         </div>
-                        <div style="min-width: 27%;">
+                        <div class="col-right">
                                 <a class="btn btn-blue displayed" href="">Contatta l'ufficio</a>   
                         </div>
                     </div>
@@ -289,10 +290,10 @@
         <!-- sezione 2 -->
         <div class="section">
             <div class="container flex">
-                <div class="left-part">
+                <div class="section2-left-part">
                     <img src="img/partner.png" alt="">
                 </div>
-                <div class="right-part"> 
+                <div class="section2-right-part"> 
                     <h2 class="small-marg-down">Entra in contatto con un partner Dropbox</h2>
                     <p class="marg-down">Trova un partner Dropbox e HelloSign
                         di fiducia. Ottieni le soluzioni e i servizi
@@ -373,15 +374,14 @@
             </div>
         </div>
         <!-- sezione 4 -->
-        <div class="section" style="margin-bottom: 8rem;">
+        <div class="section marg-down">
             <div class="container">
-                <div class="row flex">
-                    <div>
+                <div class="col flex">
+                    <div class="col-left">
                         <h1 class="marg-down">Più di 500.000 team utilizzano Dropbox Business</h1>
                         <a class="lightblue" href="">Scopri di più sui nostri clienti</a>
                     </div>
-                    <div style="min-width: 20%;">
-                    </div>
+                    <div class="col-right"></div>
                 </div>
             </div>
         </div>
@@ -431,10 +431,12 @@
         </div>
         <!-- sezione 6 -->
         <div class="section skyblue">
-            <div class="container">
-                <div class="row-gapped flex">   
-                    <h1 class="marg-down brown">Porta Dropbox Business nella tua azienda.</h1>
-                    <div style="min-width: 30%;">
+            <div class="container vertical-pad">
+                <div class="col flex">
+                    <div class="col-left-minor">
+                        <h1 class="brown">Porta Dropbox Business nella tua azienda.</h1>
+                    </div>   
+                    <div class="col-right">
                             <a class="btn btn-white btn-small not-borded displayed" href="">Inizia la tua prova gratuita</a>                        
                     </div>    
                 </div>
@@ -442,7 +444,7 @@
         </div>
         <!-- sezione 7 -->
         <div class="section">
-            <div class="container">
+            <div class="container vertical-pad">
                 <h1 class="marg-down">Domande frequenti</h1>
                 <div class="question flex" style="border-top: 2px solid lightgrey;">
                     <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
@@ -463,7 +465,7 @@
     <footer>
         <div class="section">
             <div class="container large">
-                <div class="flex">
+                <div class="flex marg-down">
                     <div class="column">
                         <h2 class="marg-down">Dropbox</h2>
                         <a href="" class="small-marg-down">Applicazione desktop</a>
@@ -505,7 +507,7 @@
                         <a href="" class="small-marg-down">Funzioni</a>
                     </div>
                 </div> 
-                <div class="line borded small-marg-down" style="max-width: 150px;"></div>
+                <div class="line borded small-marg-down small-line"></div>
                 <div>
                     <i class="fa-solid fa-earth-americas"></i>
                     <select name="language" id="language">

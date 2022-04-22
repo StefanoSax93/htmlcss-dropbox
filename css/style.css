@@ -68,8 +68,14 @@ p {
 .btn a {
     text-decoration: none;
 }
+
 .borded {
     border: 1px solid lightgrey;
+}
+
+.line {
+    max-width: 25%;
+    background-color: lightgrey;
 }
 /* Colori */
 :root {
@@ -165,6 +171,14 @@ header h1 {
     top: 120px;
 }
 /* Sezione colonne scelta piano */
+.radio-margin {
+    margin-right: 2rem;
+}
+
+.columns {
+    gap: 10px;
+}
+
 .column {
     flex-basis: 0;
     flex-grow: 1;
@@ -197,38 +211,41 @@ header h1 {
 li i {
     padding-right: 0.3rem;
 } 
-
-.line {
-    width: 25%;
-    background-color: lightgrey;
+/* colonna orizzontale + sezione 4 + sezione 6 */
+.col {
+    justify-content: space-between;
 }
 
-.row {
-    gap: 3rem;
+.col-left {
+    max-width: 65%;
 }
 
-.row-padded {
+.col-right {
+    min-width: 30%;
+}
+
+.col-padded {
     padding: 1.5rem 1rem;
 }
 
-.row-gapped {
-    gap: 8rem;
-    padding: 5rem 0 2rem;
+.col-left-minor {
+    max-width: 50%;
 }
 
-.left-part {
+/* sezione 2 */
+.section2-left-part {
     min-width: 60%;
 }
 
-.left-part img {
+.section2-left-part img {
     max-width: 100%;
 }
 
-.right-part {
+.section2-right-part {
     flex-grow: 1;
     padding: 3rem 1.5rem;
 }
-
+/* sezione 3 cards */
 .cards {
     gap: 1rem;
     flex-wrap: wrap;
@@ -242,7 +259,7 @@ li i {
 .card img {
     max-width: 100%;
 }
-
+/* sezione 5 (blocchi quadrati) */
 .block {
     flex-wrap: wrap;
     background-color: #F5F5F5;
@@ -273,16 +290,19 @@ li i {
     max-width: 220px;
     max-height: 220px;
 }
-
+/* sezione 7 */
+.vertical-pad {
+    padding: 5rem 0;
+}
 .question {
     justify-content: space-between;
     border-bottom: 2px solid lightgrey;
     padding: 3rem 2rem 3rem 0;
 }
-
+/* footer */
 footer .section {
     background-color: black;
-    padding: 2rem 0 2rem 3rem;
+    padding: 6rem 0 2rem 3rem;
     color: white;
 }
 
@@ -301,5 +321,9 @@ footer select {
     background-color: transparent;
     color: lightgrey;
     cursor: pointer;
+}
+
+.small-line {
+    max-width: 15%;
 }
 
