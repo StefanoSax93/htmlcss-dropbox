@@ -14,27 +14,26 @@ p {
 }
 
 .section {
-    width: 100%;
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .bg {
     background-color: #B4D0E7;
 }
 
-.big-container {
-    width: 70%;
-    margin: 0 auto;
+.container.large {
+    max-width: 1000px;
 }
 
 .container {
-    width: 56%;
-    margin: 2rem auto 0;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .nav {
     background-color: white;
-    padding: 1rem 1rem;
+    padding: 0 1rem;
+    min-height: 80px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -43,6 +42,11 @@ p {
 }
 
 .nav div {
+    align-items: center;
+}
+
+.bb {
+    min-height: 80px;
     align-items: center;
 }
 
@@ -114,9 +118,9 @@ header h1 {
     max-width: 650px;
 }
 
-.relative {
+.offset-top-120 {
     position: relative;
-    top: 100px;
+    top: 120px;
 }
 
 .borded {
@@ -124,7 +128,8 @@ header h1 {
 }
 
 .column {
-    flex-basis: calc(100% / 3);
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 .col-head {
@@ -205,16 +210,13 @@ li i {
 }
 
 .block {
-    min-width: calc(100% / 3);
-    min-height: calc(100vw / 3);
     flex-wrap: wrap;
     background-color: #F5F5F5;
 }
 
 .mini-block {
-    min-width: calc(100% / 2);
-    min-height: calc(100% / 2);
-    background-color: red;
+    min-width: 50%;
+    aspect-ratio: 1/1;
     position: relative;
 }
 
