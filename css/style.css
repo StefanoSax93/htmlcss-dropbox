@@ -304,6 +304,10 @@ li i {
     border-bottom: 2px solid lightgrey;
     padding: 3rem 2rem 3rem 0;
 }
+
+.top-borded {
+    border-top: 2px solid lightgrey;
+}
 /* footer */
 footer .section {
     background-color: black;
