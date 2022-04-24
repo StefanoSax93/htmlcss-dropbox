@@ -19,3 +19,54 @@ footer a:hover {
 .arrow:focus + .hidden {
     display: block;
 }
+
+.scelta {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.scelta input {
+    display: none;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+}
+
+.scelta:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.scelta input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.scelta input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.scelta .checkmark:after {
+    top: 3.5px;
+    left: 3.5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: white;
+}
