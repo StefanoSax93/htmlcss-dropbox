@@ -5,6 +5,10 @@
     font-family: arial;
 }
 
+@font-face {
+    font-family: Sharp Grotesk;
+    src: url(../font/SharpGroteskMedium25.woff);
+}
 .flex {
     display: flex;
 }
@@ -13,18 +17,24 @@
     margin: 4rem 0;
 }
 
+.container {
+    max-width: 1075px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
 :root {
     --lightblue: #0061FF;
 }
 
 .btn {
-    padding: 0.9rem;
+    padding: 0.4rem 1.1rem;
     text-decoration: none;
     text-align: center;
 }
 
-.btn-small {
-    padding: 0.7rem 0.5rem;
+.btn-large-padding {
+    padding: 0.8rem 3.5rem;
 }
 
 .btn-blue {
@@ -42,7 +52,6 @@
 
 .nav {
     background-color: white;
-    padding-right: 1.3rem;
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
@@ -97,4 +106,32 @@
     fill: white;
     max-width: 25px;
     margin-left: 5px;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.col-left {
+    max-width: 45%;
+}
+
+.col-right {
+    max-width: 40%;
+}
+
+.marg-down {
+    margin-bottom: 3.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 1.3;
+    font-family: Sharp Grotesk; 
+    font-weight: 500;
 }
